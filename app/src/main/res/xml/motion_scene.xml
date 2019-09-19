@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:motion="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetStart="@layout/included_dropdown_start"
+        motion:constraintSetEnd="@layout/included_dropdown_end"
+        motion:duration="300">
+
+        <OnClick
+            motion:dragDirection="dragDown"
+            app:touchAnchorId="@+id/paizao" />
+    </Transition>
+</MotionScene>
